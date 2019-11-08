@@ -3,16 +3,10 @@ import PropTypes from "prop-types"
 import React from "react"
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
     <div
       style={{
         margin: `0 auto`,
-        maxWidth: 960,
+        maxWidth: 1440,
         padding: `1.45rem 1.0875rem`,
       }}
     >
@@ -20,7 +14,7 @@ const Header = ({ siteTitle }) => (
         <Link
           to="/"
           style={{
-            color: `white`,
+            color: `#545454`,
             textDecoration: `none`,
           }}
         >
@@ -28,7 +22,6 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h1>
     </div>
-  </header>
 )
 
 Header.propTypes = {
@@ -36,7 +29,7 @@ Header.propTypes = {
 }
 
 Header.defaultProps = {
-  siteTitle: ``,
+  siteTitle: `Fluiditype`,
 }
 
 export default Header

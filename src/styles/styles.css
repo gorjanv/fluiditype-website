@@ -1,0 +1,31 @@
+html {
+    margin: 0px auto;
+    max-width: 1440px;
+}
+
+content {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        grid-template-columns: 50vw 40vw;
+        grid-gap: 16px;
+        background-color: #fcfcff;
+        
+}
+
+@media only screen and (max-width: 768px) {
+    content {
+        display: flex;
+        flex-wrap: nowrap; 
+        flex-direction: column;
+    }
+  }
+  
+@media only screen and (max-width: 480px) {
+    content {
+        display: flex;
+        flex-wrap: nowrap; 
+        flex-direction: column;
+    }
+  }
+  
