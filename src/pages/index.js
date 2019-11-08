@@ -8,10 +8,6 @@ const IndexPage = () => (
   <Layout>
     <Content />
     <ContentReverse />
-    <Content />
-    <ContentReverse />
-    <Content />
-    <ContentReverse />
   </Layout>
 )
 
