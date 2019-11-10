@@ -1,6 +1,7 @@
-import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+
+import "../styles/styles.css"
 
 const Header = ({ siteTitle }) => (
     <div
@@ -10,9 +11,10 @@ const Header = ({ siteTitle }) => (
         padding: `1.45rem 1.0875rem`,
       }}
     >
-      <h1>
+      <p>
           {siteTitle}
-      </h1>
+      </p>
+      <button>Download</button>
     </div>
 )
 

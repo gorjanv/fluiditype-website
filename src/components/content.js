@@ -16,10 +16,11 @@ const Content = () => (
           images,Includes plugins for analytics, building sitemaps, and optimizing
           images
         </p>
+        <button>Download</button>
       </div>
       <div>
-        <img src={visualasset5} alt="a blank card floating over colorful graphics" />
-      </div>
+        <img src={visualasset5} alt="visualasset5" />
+      </div>    
     </content>
   </div>
 )
