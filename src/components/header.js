@@ -2,6 +2,7 @@ import PropTypes from "prop-types"
 import React from "react"
 
 import "../styles/styles.css"
+import fdlogo from "../images/Fluiditype-logo.png"
 
 const Header = ({ siteTitle }) => (
     <header
@@ -17,12 +18,16 @@ const Header = ({ siteTitle }) => (
       borderBottom: '1px solid black',
     }}
       >
-      <p
+      {/* <p
       style={{
         margin: '0',
       }}>
           {siteTitle}
-      </p>
+      </p> */}
+      <img src={fdlogo} alt="fd" 
+      style={{
+        width: '100px',
+      }}></img>
       <button class="header">Github</button>
     </header>
 )
