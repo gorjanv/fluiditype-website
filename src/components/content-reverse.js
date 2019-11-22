@@ -3,22 +3,27 @@ import React from "react"
 import { COLORS } from "../styles/constants"
 import "../styles/fluiditype.css"
 import "../styles/styles.css"
-import visualasset2 from "../images/visualasset2.gif"
+import herofluiditype from "../images/hero-fluiditype.gif"
 
 
 const ContentReverse = () => (
   <div>
     <content>
         <div>
-            <img src={visualasset2} alt="a blank card floating over colorful graphics" />
+            <img src={herofluiditype} alt="herofluiditype" />
         </div>
         <div>
-            <h1>Fluiditype</h1>
+            <h2>Fully fluid, small and easy to use</h2>
             <p style={{ color: COLORS.gray }}>
-          Includes plugins for analytics, building sitemaps, and optimizing
-          images,Includes plugins for analytics, building sitemaps, and optimizing
-          images
+            Includes plugins for analytics, building sitemaps, and optimizing
+            images,Includes plugins for analytics, building sitemaps, and optimizing
+            images
             </p>
+            <ul>
+              <li>3kb only</li>
+              <li>Presented and designed with the Inter font.</li>
+              <li>Just copy paste or download the file</li>
+            </ul>
         </div>
     </content>
   </div>

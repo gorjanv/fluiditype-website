@@ -1,9 +1,64 @@
 button {
-    color: black;
-    background-color: none;
-    border: 1px solid black;
-    padding: .5rem 2.5rem;
-    border-radius: 4px;
+    transform: translate(-3px,-3px);
+    text-transform: uppercase;
+    font-size: calc(10px + 0.398vw);
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    background-color: #000;
+    border-color: #fff;
+    color: #fff;
+    height: 50px;
+    align-items: center;
+    border-radius: 0;
     cursor: pointer;
+    display: inline-flex;
+    justify-content: flex-start;
+    line-height: 50px;
+    min-height: 50px;
+    padding: 0 21px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: transform .1s cubic-bezier(.3,0,.45,1),color .1s cubic-bezier(.3,0,.45,1),border .1s cubic-bezier(.3,0,.45,1),background .1s cubic-bezier(.3,0,.45,1);
+    white-space: nowrap;
+    width: auto;
 }
 
+
+button:hover {
+
+}
+
+button:active {
+  transform: translate(0);
+  outline: none;
+}
+
+button:before{
+  content: "";
+  display: block;
+  position: absolute;
+  transition: .1s cubic-bezier(.3,0,.45,1);
+  border-bottom: 1px solid #000;
+  border-left: 1px solid #000;
+  background-color: white;
+  bottom: -3px;
+  height: 3px;
+  left: 2px;
+  width: 100%;
+}
+
+button:after {
+  content: "";
+  display: block;
+  position: absolute;
+  transition: .1s cubic-bezier(.3,0,.45,1);
+  border-right: 1px solid #000;
+  border-top: 1px solid #000;
+  background-color: white;
+  height: 100%;
+  right: -3px;
+  top: 2px;
+  width: 3px;
+}
