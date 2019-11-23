@@ -13,7 +13,7 @@ const Header = ({ siteTitle }) => (
       justifyContent: 'space-between',
       width: '100%',
       padding: '32px',
-      height: '90px',
+      height: '65px',
       backgroundColor: 'white',
       borderBottom: '1px solid black',
     }}
@@ -26,7 +26,7 @@ const Header = ({ siteTitle }) => (
       </p> */}
       <img src={fdlogo} alt="fd" 
       style={{
-        width: '100px',
+        width: '50px',
       }}></img>
       <button class="header">Github</button>
     </header>

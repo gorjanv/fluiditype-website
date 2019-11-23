@@ -8,15 +8,14 @@ button {
     background-color: #000;
     border-color: #fff;
     color: #fff;
-    height: 50px;
     align-items: center;
     border-radius: 0;
     cursor: pointer;
     display: inline-flex;
     justify-content: flex-start;
-    line-height: 50px;
-    min-height: 50px;
-    padding: 0 21px;
+    line-height: 40px;
+    min-height: 40px;
+    padding: 0 20px;
     position: relative;
     text-align: left;
     text-decoration: none;
