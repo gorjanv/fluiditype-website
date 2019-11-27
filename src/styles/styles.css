@@ -57,9 +57,12 @@ header {
 .header {
     text-decoration: none;
     color: white;
+    font-weight: 500;
+    font-size: 16px;
 }
 
 a.header:hover{
+    text-decoration: underline;
     color: white;
 }
 

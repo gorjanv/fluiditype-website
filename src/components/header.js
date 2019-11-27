@@ -29,7 +29,7 @@ const Header = ({ siteTitle }) => (
       style={{
         width: '50px',
       }}></img>
-      <Button>Download</Button>
+      <Button>DOWNLOAD</Button>
     </header>
 )
 
