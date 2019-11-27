@@ -1,6 +1,5 @@
 import React from "react"
 
-import { COLORS } from "../styles/constants"
 import "../styles/fluiditype.css"
 import "../styles/styles.css"
 
@@ -62,7 +61,7 @@ const ContentTypography = () => (
           <pre>pre </pre>
           <hr class="separator"></hr>
           <h4><span id="links" class="hash-heading">#</span>Links and hyperlinks</h4>
-          <a href="https://github.com/sboriskirov/fluiditype" target="_blank">View in GitHub</a>
+          <a href="https://github.com/sboriskirov/fluiditype" target="_blank" rel="noopener noreferrer">View in GitHub</a>
         </div>    
     </content>
   </div>

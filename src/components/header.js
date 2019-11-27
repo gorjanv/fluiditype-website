@@ -3,6 +3,7 @@ import React from "react"
 
 import "../styles/styles.css"
 import fdlogo from "../images/Fluiditype-logo.png"
+import Button from "../components/button"
 
 const Header = ({ siteTitle }) => (
     <header
@@ -28,7 +29,7 @@ const Header = ({ siteTitle }) => (
       style={{
         width: '50px',
       }}></img>
-      <button class="header">Github</button>
+      <Button>Download</Button>
     </header>
 )
 

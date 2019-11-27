@@ -54,6 +54,16 @@ header {
     padding-top: 16px;
 }
 
+.header {
+    text-decoration: none;
+    color: white;
+}
+
+a.header:hover{
+    color: white;
+}
+
+
 footer {
     padding-top: 16px;
     height: 90px;
