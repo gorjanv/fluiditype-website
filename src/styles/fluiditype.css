@@ -23,7 +23,7 @@ html {
 }
 
 
-p, li, b, i, strong, a, mark {
+p, li, b, i, strong, a {
   font-size: var(--fontSize);
   line-height: var(--lineHeight);
   letter-spacing: var(--letterSpacing);
