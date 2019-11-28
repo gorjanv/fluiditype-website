@@ -20,7 +20,7 @@ content.center{
     text-align: center;
     align-content: center;
     grid-template-columns: 70vw;
-    min-height: calc(240vh - 150px);
+    min-height: calc(210vh - 150px);
 }
 
 content.content-typography {

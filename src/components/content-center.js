@@ -10,12 +10,12 @@ const ContentCenter = () => (
   <div>
     <content class="center">
         <div>
-            <h1>Fluid simple typography boilerplate</h1>
+            <h1>Fluid, flexible & simple typography </h1>
             <p style={{ color: COLORS.gray }}>
-              This small CSS library serves to avoid responsive web but focus
-               more on fluidity and systematic approach which will let the interface
-                to communicate with the environment and not to be broken by rules.
-                 This would work great for blogs, portfolio websites and simple pages.
+            This small CSS library serves to avoid the responsive web by 
+            focusing on pure fluidity in which the system communicate what 
+            size to be rendered. Recommend to be used for <mark>blogs</mark>, <mark>portfolios</mark>, 
+            <mark>documentation</mark> & and <mark> simplistic text websites</mark>.
             </p>
         </div>
         <div>

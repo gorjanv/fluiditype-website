@@ -9,7 +9,8 @@ const ContentTypography = () => (
     <content class="content-typography">
         <div>
           <h1>Fluiditype content schema</h1>
-          <p>You can review below the full spectrum of the Fluiditype, it covers headings, paragraphs, text styles, lists and code snippets. The perfect badge to cover a blog.</p>
+          <p>You can review the font behaviour and the spectrum of text types that 
+            Fluiditype covers like Headings, paragraphs, lists & code-snippeds.</p>
           <hr class="separator"></hr>
           <h4><span id="headings" class="hash-heading">#</span>Headings</h4>
           <h1>Heading 1</h1>
