@@ -20,7 +20,7 @@ const ContentReverse = () => (
             </p>
             <ul>
               <li>3kb only</li>
-              <li>Best worked and tested with the <a href="">Inter</a> font</li>
+              <li>Best worked and tested with the <a href="https://rsms.me/inter/">Inter</a> font</li>
               <li>Main rules of web typography are taken in mind while desinged</li>
               <li>Copy the css or download it from Github</li>
             </ul>
