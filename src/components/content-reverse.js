@@ -15,13 +15,11 @@ const ContentReverse = () => (
         <div>
             <h2>Easy to adopt and customise</h2>
             <p style={{ color: COLORS.gray }}>
-            Using a simple formula which renders a minimum font-size and a viewport-width 
-            metric to show a size relevant to the screen size from which the information is viewed.
+            Using a simple formula of font-size and a viewport-width which renders the size of the font.
             </p>
             <ul>
               <li>3kb only</li>
-              <li>Best worked and tested with the <a href="https://rsms.me/inter/">Inter</a> font</li>
-              <li>Main rules of web typography are taken in mind while desinged</li>
+              <li>Presented with the powerful <a href="https://rsms.me/inter/">Inter</a> font</li>
               <li>Copy the css or download it from Github</li>
             </ul>
         </div>
