@@ -62,7 +62,10 @@ const ContentTypography = () => (
           <pre>pre </pre>
           <hr class="separator"></hr>
           <h4><span id="links" class="hash-heading">#</span>Links and hyperlinks</h4>
-          <a href="https://github.com/sboriskirov/fluiditype" target="_blank" rel="noopener noreferrer">View in GitHub</a>
+          <ul>
+            <li><a href="https://github.com/sboriskirov/fluiditype" target="_blank" rel="noopener noreferrer">View in GitHub</a></li>
+            <li><a href="https://codepen.io/bkirov/pen/BayBbdB" target="_blank" rel="noopener noreferrer">Copy from Codepen</a></li>
+          </ul>
         </div>    
     </content>
   </div>
