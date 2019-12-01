@@ -25,8 +25,7 @@ function SEO({ description, lang, meta, title }) {
       htmlAttributes={{
         lang,
       }}
-      title={title}
-      titleTemplate={`%s | ${site.siteMetadata.title}`}
+      titleTemplate={`%s | ${site.siteMetadata.description}`}
       meta={[
         {
           name: `Fluiditype`,
@@ -61,14 +60,17 @@ function SEO({ description, lang, meta, title }) {
           content: metaDescription,
         },
       ].concat(meta)}
-    />
+    >
+    <title>Fluiditype</title>
+    </Helmet>
   )
 }
 
 SEO.defaultProps = {
   lang: `en-us`,
   meta: [],
-  description: `Fluiditype`,
+  title: 'Fluiditype',
+  description: `Simple and fluent css for flexible typgraphy in the web.`,
 }
 
 SEO.propTypes = {
