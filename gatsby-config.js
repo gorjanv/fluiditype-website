@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Fluditype`,
-    description: `Simple and fluent css for flexible typgraphy on the web.`,
+    description: `Simple and fluent css for flexible typography on the web.`,
     author: `Boris Kirov`,
   },
   plugins: [
