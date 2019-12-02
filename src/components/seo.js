@@ -28,7 +28,7 @@ function SEO({ description, lang, meta, title }) {
       titleTemplate={`%s | ${site.siteMetadata.description}`}
       meta={[
         {
-          name: `Fluiditype`,
+          name: `Description`,
           content: metaDescription,
         },
         {
