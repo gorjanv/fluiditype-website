@@ -19,7 +19,7 @@ const ContentCenter = () => (
             </p>
         </div>
         <div>
-          <img src={fd} alt="fd" />
+          <img src={fd} alt="fd"/>
         </div>    
     </content>
   </div>
