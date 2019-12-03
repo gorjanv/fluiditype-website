@@ -13,9 +13,9 @@ const ContentCenter = () => (
             <h1>Fluid, flexible & simple typography </h1>
             <p style={{ color: COLORS.gray }}>
             This small CSS library serves to avoid the responsive web by 
-            focusing on pure fluidity in which the system communicate what 
+            focusing on pure fluidity in which the system communicates what 
             size to be rendered. Recommend to be used for <mark>blogs</mark>, <mark>portfolios</mark>, 
-            <mark>documentation</mark> & and <mark> simplistic text websites</mark>.
+            <mark> documentation</mark> & and <mark> simplistic text websites</mark>.
             </p>
         </div>
         <div>
