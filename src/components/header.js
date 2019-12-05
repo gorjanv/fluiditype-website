@@ -17,6 +17,7 @@ const Header = ({ siteTitle }) => (
       height: '65px',
       backgroundColor: 'white',
       borderBottom: '1px solid black',
+      maxWidth: '1440px',
     }}
       >
       {/* <p
