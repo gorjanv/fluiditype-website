@@ -5,6 +5,8 @@ import "../styles/styles.css"
 import fdlogo from "../images/Fluiditype-logo.png"
 import Button from "../components/button"
 
+// TODO: integrate styled compponents
+
 const Header = ({ siteTitle }) => (
     <header
     style={{
@@ -26,7 +28,7 @@ const Header = ({ siteTitle }) => (
       }}>
           {siteTitle}
       </p> */}
-      <img src={fdlogo} alt="fd" 
+      <img src={fdlogo} alt="fd"
       style={{
         width: '50px',
       }}></img>
