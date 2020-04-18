@@ -23,9 +23,30 @@ content.center{
     min-height: calc(50vh + 1200px);
 }
 
+content.center-second {
+    align-items: center;
+    display: grid;
+    gap: 140px;
+    grid-template-columns: 700px 600px;
+    margin-right: 0;
+    padding-bottom: 160px;
+
+}
+
 content.content-typography {
     grid-template-columns: 70vw;
     padding-top: 80px;
+}
+
+@media only screen and (max-width: 1280px) {
+    content.center-second {
+        display: flex;
+        flex-wrap: nowrap; 
+        flex-direction: column;
+    }
+    content.center{
+        min-height: calc(210vh - 260px);
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -41,7 +62,7 @@ content.content-typography {
 
 
 @media only screen and (max-width: 768px) {
-    content {
+    content, content.center-second  {
         display: flex;
         flex-wrap: nowrap; 
         flex-direction: column;
@@ -52,7 +73,7 @@ content.content-typography {
 }
   
 @media only screen and (max-width: 480px) {
-    content {
+    content, content.center-second {
         display: flex;
         flex-wrap: nowrap; 
         flex-direction: column;

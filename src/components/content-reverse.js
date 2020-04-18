@@ -8,7 +8,7 @@ import herofluiditype from "../images/hero-fluiditype.gif"
 
 const ContentReverse = () => (
   <div>
-    <content>
+    <content class="center-second">
         <div>
             <img src={herofluiditype} alt="herofluiditype" />
         </div>
@@ -19,7 +19,7 @@ const ContentReverse = () => (
             </p>
             <ul>
               <li>3kb only</li>
-              <li>Presented with the powerful <a href="https://rsms.me/inter/">Inter</a> font</li>
+              <li>Presented with the powerful <a href="https://rsms.me/inter/" target="_blank">Inter</a> font</li>
               <li>Copy the css or download it from Github</li>
             </ul>
         </div>

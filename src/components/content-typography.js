@@ -23,7 +23,7 @@ const ContentTypography = () => (
           <h4><span id="paragraphs" class="hash-heading">#</span>Paragraphs & text styles</h4>
           <p>Fluitype is a typography css framework, which can easily be added to any webpage.The magic is behind the calculations done while incorporate the <code>vw</code> which stands for <code>viewport-width</code> and it is fully responsive and fluid to the size of the viewport.</p>
           <blockquote>You want to understand and test how this setup works, it is easy. Just rescale the screen and you will se the typography starting to adjust.</blockquote>
-          <p>Just a simple paragraph text, that way you can easily visualize the <mark>behavior</mark> when you change the viewport, the rescaling and fluidity in action. This is a font type called Inter created for Figma, also used by Github.</p>
+          <p>Just a simple paragraph text, that way you can easily visualize the <mark>behavior</mark> when you change the viewport, the rescaling and fluidity in action. This is a font type called Inter created for <a href="https://figma.com" target="_blank" rel="noopener noreferrer">Figma</a>, also used by <a href="https://github.com" target="_blank" rel="noopener noreferrer">Github</a>.</p>
           <ul>
             <li><b>Bolded text</b></li>
             <li><i>Italic text</i></li>
