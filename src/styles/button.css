@@ -24,11 +24,6 @@ button {
     width: auto;
 }
 
-
-button:hover {
-  
-}
-
 button:active {
   transform: translate(0);
   outline: none;

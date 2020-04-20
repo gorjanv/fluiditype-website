@@ -3,7 +3,7 @@ html {
     max-width: 1440px;
 }
 
-content {
+section {
     display: grid;
     align-items: center;
     justify-content: center;
@@ -14,41 +14,68 @@ content {
         
 }
 
-content.center{
+.hero {
     align-items: center;
     justify-content: center;
     text-align: center;
     align-content: center;
     grid-template-columns: 70vw;
-    min-height: calc(210vh - 150px);
+    min-height: calc(50vh + 1200px);
 }
 
-content.content-typography {
+.section-second {
+    align-items: center;
+    display: grid;
+    gap: 140px;
+    grid-template-columns: 700px 600px;
+    margin-right: 0;
+    padding-bottom: 160px;
+
+}
+
+.fluiditype-schema {
     grid-template-columns: 70vw;
     padding-top: 80px;
 }
 
-@media only screen and (max-width: 768px) {
-    content {
+@media only screen and (max-width: 1280px) {
+    section.section-second {
         display: flex;
         flex-wrap: nowrap; 
         flex-direction: column;
     }
-    content.center{
-        min-height: calc(160vh - 120px);
+}
+
+@media only screen and (min-width: 768px) {
+    section {
+        display: flex;
+        flex-wrap: nowrap; 
+        flex-direction: column;
     }
-  }
+}
+
+
+@media only screen and (max-width: 768px) {
+    section, .center-second  {
+        display: flex;
+        flex-wrap: nowrap; 
+        flex-direction: column;
+    }
+    .hero{
+        min-height: calc(150vh - 260px);
+    }
+}
   
 @media only screen and (max-width: 480px) {
-    content {
+    section, .center-second {
         display: flex;
         flex-wrap: nowrap; 
         flex-direction: column;
     }
-    content.center {
-        min-height: calc(160vh - 200px);
+    .hero {
+        min-height: calc(160vh - 600px);
     }
-  }
+}
 
 header {
     padding-top: 16px;
@@ -66,6 +93,16 @@ a.header:hover{
     color: white;
 }
 
+.hash-heading {
+    background-color: #fb5d5d45;
+    color: #fb5d5d;;
+    padding: 4px 8px;
+    border-radius: 2px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 1px solid
+}
+
 
 footer {
     padding-top: 16px;
@@ -78,7 +115,7 @@ footer {
 hr.separator {
     margin-bottom: calc(2.45rem - 1px);
     margin-top: calc(2.45rem - 1px);
-    border-top: 1px dashed black;
+    border-top: 1px dashed #fb5d5d45;
     background: none;
 }
   
