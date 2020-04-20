@@ -13,8 +13,8 @@ const ContentCenter = () => (
           <p style={{ color: COLORS.gray }}>
           This small CSS library serves to avoid the responsive web by 
           focusing on pure fluidity in which the system communicates what 
-          size to be rendered. Recommend to be used for <mark>blogs</mark>, <mark>portfolios</mark>, 
-          <mark> documentation</mark> & and <mark> simplistic text websites</mark>.
+          size to be rendered. Recommend to be used for <mark>blogs</mark>, <mark>portfolios</mark> & 
+          <mark>documentation</mark>.
           </p>
       </div>
       <div>

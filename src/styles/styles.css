@@ -93,6 +93,16 @@ a.header:hover{
     color: white;
 }
 
+.hash-heading {
+    background-color: #fb5d5d45;
+    color: #fb5d5d;;
+    padding: 4px 8px;
+    border-radius: 2px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 1px solid
+}
+
 
 footer {
     padding-top: 16px;
@@ -105,7 +115,7 @@ footer {
 hr.separator {
     margin-bottom: calc(2.45rem - 1px);
     margin-top: calc(2.45rem - 1px);
-    border-top: 1px dashed black;
+    border-top: 1px dashed #fb5d5d45;
     background: none;
 }
   
