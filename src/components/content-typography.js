@@ -5,8 +5,7 @@ import "../styles/styles.css"
 
 
 const ContentTypography = () => (
-  <div>
-    <content class="content-typography">
+    <section class="fluiditype-schema">
         <div>
           <h1>Fluiditype content schema</h1>
           <p>You can review the font behaviour and the spectrum of text types that 
@@ -67,8 +66,7 @@ const ContentTypography = () => (
             <li><a href="https://codepen.io/bkirov/pen/BayBbdB" target="_blank" rel="noopener noreferrer">Copy from Codepen</a></li>
           </ul>
         </div>  
-    </content>
-  </div>
+    </section>
 )
 
 export default ContentTypography
