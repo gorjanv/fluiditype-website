@@ -2,7 +2,7 @@ import PropTypes from "prop-types"
 import React from "react"
 
 import "../styles/styles.css"
-import fdlogo from "../images/Fluiditype-logo.svg"
+import Logo from "./fluidtype-eye-logo"
 import Button from "../components/button"
 
 const Header = ({ siteTitle }) => (
@@ -20,10 +20,7 @@ const Header = ({ siteTitle }) => (
       maxWidth: '1440px',
     }}
       >
-      <img src={fdlogo} alt="fd" 
-      style={{
-        width: '50px',
-      }}></img>
+      <Logo />
       <Button>DOWNLOAD</Button>
     </header>
 )
